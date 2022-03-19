@@ -31,3 +31,20 @@
 
 ### Booking Reference Number
 ![](https://github.com/sakshi-codes/Bus-Management-System/blob/master/screenshots/reference%20number.png)
+
+## Functions
+### Admin
+- Create Admin account using command
+```
+py manage.py createsuperuser
+```
+- After Login, can see Total Number Of Buses,Locations,Users.
+- Can View, Update, Delete Bus schedule.
+- Can View, Update, Delete Location List.
+- Can View, Update, Delete Buses.
+- Can View, Update, Delete Users.
+
+### Users
+- After Login, Can See Bus shedule.
+- Can Book the buses any time.
+- Get reference number as booking confirmation.
